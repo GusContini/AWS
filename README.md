@@ -55,6 +55,7 @@ JSON
 Example (using curl):
 
 Bash
+
 curl -X POST -H "Content-Type: application/json" -d '{"message":"This is a test message.", "categories":["Sports", "Technology", "Politics"]}' https://iqzolzrrni.execute-api.us-east-1.amazonaws.com/dev/message-classification
 
 Response Example
